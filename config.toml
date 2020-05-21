@@ -1,0 +1,27 @@
+baseURL = "https://froschdesign.github.io/documentation-status/"
+languageCode = "en"
+title = "Documentation Status - Laminas"
+#disableKinds = ["sitemap", "taxonomy", "RSS", "404", "taxonomyTerm"]
+#sectionPagesMenu = "main"
+#relativeURLs = true
+#canonifyURLs = true
+
+[markup]
+    [markup.highlight]
+        codeFences = false
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+          unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "documentation-listed"
+    name = "Documentation Not Listed"
+    url = "/documentation-listed"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "site-descriptions"
+    name = "Site Descriptions"
+    url = "/site-descriptions"
+    weight = 2
