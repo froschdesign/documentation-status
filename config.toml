@@ -16,7 +16,7 @@ title = "Documentation Status - Laminas"
 [menu]
   [[menu.main]]
     identifier = "documentation-listed"
-    name = "Documentation Not Listed"
+    name = "Documentation Listed"
     url = "/documentation-listed"
     weight = 1
 
