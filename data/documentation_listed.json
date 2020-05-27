@@ -277,7 +277,7 @@
     {
         "repo": "laminas-recaptcha",
         "repo_description": "OOP wrapper for the ReCaptcha web service",
-        "listed": false
+        "listed": true
     },
     {
         "repo": "laminas-router",
