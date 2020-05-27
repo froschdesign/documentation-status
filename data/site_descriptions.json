@@ -497,10 +497,10 @@
     {
         "repo": "laminas-recaptcha",
         "repo_description": "OOP wrapper for the ReCaptcha web service",
-        "site_description": "PHP OOP wrapper for the ReCaptcha web service",
+        "site_description": "OOP wrapper for the ReCaptcha web service",
         "composer_description": "OOP wrapper for the ReCaptcha web service",
-        "equal": false,
-        "equal_repo_site": false,
+        "equal": true,
+        "equal_repo_site": true,
         "equal_repo_composer": true
     },
     {
