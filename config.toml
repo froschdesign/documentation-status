@@ -25,3 +25,9 @@ title = "Documentation Status - Laminas"
     name = "Site Descriptions"
     url = "/site-descriptions"
     weight = 2
+
+  [[menu.main]]
+    identifier = "installation-page"
+    name = "Installation Page"
+    url = "/installation-page"
+    weight = 3
