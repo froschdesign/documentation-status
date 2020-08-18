@@ -106,7 +106,7 @@
     },
     {
         "repo": "laminas-feed",
-        "repo_description": "provides functionality for consuming RSS and Atom feeds",
+        "repo_description": "Provides functionality for consuming RSS and Atom feeds",
         "listed": true
     },
     {
@@ -146,8 +146,8 @@
     },
     {
         "repo": "laminas-i18n-resources",
-        "repo_description": "Provides validator translations for laminas-i18n's Translator",
-        "listed": false
+        "repo_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "listed": true
     },
     {
         "repo": "laminas-inputfilter",
@@ -380,8 +380,93 @@
         "listed": true
     },
     {
+        "repo": "laminas-cache-storage-adapter-template",
+        "repo_description": null,
+        "listed": false
+    },
+    {
         "repo": "laminas-cli",
-        "repo_description": "Console command runner, exposing commands written in Laminas MVC and Mezzio components and applications.",
+        "repo_description": "Console command runner, exposing commands written in Laminas MVC and Mezzio components and applications",
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-test",
+        "repo_description": "Testing utilities for laminas-cache adapters",
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-apc",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-apcu",
+        "repo_description": "Laminas cache adapter for APCu",
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-blackhole",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-dba",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-ext-mongodb",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-filesystem",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memcache",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memcached",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memory",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-mongodb",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-redis",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-session",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-wincache",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-xcache",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-zend-server",
+        "repo_description": null,
         "listed": false
     }
 ]

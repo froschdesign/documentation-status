@@ -190,12 +190,12 @@
     },
     {
         "repo": "laminas-feed",
-        "repo_description": "provides functionality for consuming RSS and Atom feeds",
+        "repo_description": "Provides functionality for consuming RSS and Atom feeds",
         "site_description": "Consume and generate Atom and RSS feeds, and interact with Pubsubhubbub.",
         "composer_description": "provides functionality for consuming RSS and Atom feeds",
         "equal": false,
         "equal_repo_site": false,
-        "equal_repo_composer": true
+        "equal_repo_composer": false
     },
     {
         "repo": "laminas-file",
@@ -262,11 +262,11 @@
     },
     {
         "repo": "laminas-i18n-resources",
-        "repo_description": "Provides validator translations for laminas-i18n's Translator",
-        "site_description": "laminas-i18n-resources",
-        "composer_description": "Provides validator translations for laminas-i18n's Translator",
-        "equal": false,
-        "equal_repo_site": false,
+        "repo_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "site_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "composer_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "equal": true,
+        "equal_repo_site": true,
         "equal_repo_composer": true
     },
     {
@@ -452,10 +452,10 @@
     {
         "repo": "laminas-paginator",
         "repo_description": "Paginate collections of data from arbitrary sources",
-        "site_description": "Paginate collections of data from arbitrary sources.",
+        "site_description": "Paginate collections of data from arbitrary sources",
         "composer_description": "Paginate collections of data from arbitrary sources",
-        "equal": false,
-        "equal_repo_site": false,
+        "equal": true,
+        "equal_repo_site": true,
         "equal_repo_composer": true
     },
     {
@@ -684,10 +684,163 @@
         "equal_repo_composer": false
     },
     {
+        "repo": "laminas-cache-storage-adapter-template",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for {adapter}",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
         "repo": "laminas-cli",
-        "repo_description": "Console command runner, exposing commands written in Laminas MVC and Mezzio components and applications.",
+        "repo_description": "Console command runner, exposing commands written in Laminas MVC and Mezzio components and applications",
         "site_description": "Command-line interface for Laminas projects",
         "composer_description": "Command-line interface for Laminas projects",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-test",
+        "repo_description": "Testing utilities for laminas-cache adapters",
+        "site_description": "",
+        "composer_description": "Laminas cache storage adapter shared test dependency",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-apc",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-apcu",
+        "repo_description": "Laminas cache adapter for APCu",
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for apcu",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-blackhole",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for blackhole",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-dba",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for dba",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-ext-mongodb",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for ext-mongodb",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-filesystem",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for filesystem",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memcache",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for memcache",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memcached",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for memcached",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memory",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for memory",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-mongodb",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for mongodb",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-redis",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for redis",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-session",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for session",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-wincache",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for wincache",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-xcache",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for xcache",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-zend-server",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for zend-server",
         "equal": false,
         "equal_repo_site": false,
         "equal_repo_composer": false

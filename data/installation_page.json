@@ -163,9 +163,9 @@
         "repo": "laminas-paginator",
         "config_provider_class": true,
         "module_class": true,
-        "config_provider_class_in_config": false,
-        "module_class_in_config": false,
-        "page": false
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
     },
     {
         "repo": "laminas-router",
