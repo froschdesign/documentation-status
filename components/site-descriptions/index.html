@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Status report of the Laminas documentation">
+    <link rel="shortcut icon"
+          href="https://docs.laminas.dev/img/trademark-laminas-foundation-rgb.svg">
+    <title>Documentation Status - Laminas  | Site Descriptions</title>
+    <link rel="stylesheet" href="https://docs.laminas.dev/css/styles.css">
+</head>
+<body id="page-top" class="docs-overview">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <a class="logo-link navbar-brand" href="https://getlaminas.org/"
+           data-tooltip data-placement="bottom"
+           title="Go to the Laminas homepage">
+            <img src="https://docs.laminas.dev/img/laminas-foundation-white.svg"
+                 height="28" alt="Laminas">
+        </a>
+        <a class="navbar-title" href="https://docs.laminas.dev/" data-tooltip
+           data-placement="bottom" title="Go to the Laminas Documentation">
+            Documentation
+        </a>
+
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <div class="dropdown sub-project-selector">
+                        <a class="dropdown-toggle nav-link"
+                           data-toggle="dropdown" aria-expanded="false">
+                            All Docs
+                        </a>
+                        <div class="dropdown-menu"
+                             aria-labelledby="dropdownMenuButton">
+                            <a href="https://docs.mezzio.dev/"
+                               class="dropdown-item">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 col-sm-12">
+                                        <img src="https://docs.laminas.dev/img/laminas-mezzio-rgb.svg">
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>Mezzio</strong><br>
+                                        PSR-15 Middleware in Minutes
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://docs.laminas.dev/components/"
+                               class="dropdown-item">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 col-sm-12">
+                                        <img src="https://docs.laminas.dev/img/laminas-components-rgb.svg">
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>Components</strong><br>
+                                        Components for Enterprise Applications
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://docs.laminas.dev/mvc"
+                               class="dropdown-item">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 col-sm-12">
+                                        <img src="https://docs.laminas.dev/img/laminas-mvc-rgb.svg">
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>MVC</strong><br>
+                                        MVC for Enterprise Applications
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://api-tools.getlaminas.org/documentation"
+                               class="dropdown-item">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 col-sm-12">
+                                        <img src="https://docs.laminas.dev/img/laminas-api-tools-rgb.svg">
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>API Tools</strong><br>
+                                        Build RESTful APIs in Minutes
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item dropdown-item--secondardy"
+                               href="https://docs.laminas.dev/migration/">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8 offset-md-4 col-sm-12">
+                                        Migration to Laminas
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item dropdown-item--secondardy"
+                               href="https://docs.laminas.dev/tutorials/">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8 offset-md-4 col-sm-12">
+                                        Tutorials
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="https://getlaminas.org/participate"
+                       class="nav-link">Community</a>
+                </li>
+            </ul>
+
+
+            <div class="d-block d-sm-none">
+
+                <div class="subnavigation hidden-print">
+                    <h4 class="subnavigation__title">
+                        <a href=".">documentation-status</a>
+                    </h4>
+
+                    <h5 class="subnavigation__subtitle">Table of Contents</h5>
+
+                    <ul class="subnavigation__list">
+
+
+                        <li class="subnavigation__list-item ">
+                            <a href="usage/"
+                               class="subnavigation__link">Usage</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="d-block d-sm-none">
+                <div class="component-selector">
+
+                    <h5 class="component-selector__subtitle">Find
+                        documentation…</h5>
+                    <select class="form-control component-selector__control">
+                        <option value="/">Overview</option>
+                        <optgroup label="Components"></optgroup>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-8">
+                <h1 class="header__title">
+                    Documentation Status
+                </h1>
+            </div>
+
+
+            <div class="col-4 text-sm-right">
+                <a href="https://github.com/froschdesign/documentation-status/"
+                   class="header__link header__link--github"
+                   title="Go to repository of documentation-status">
+                    <i class="fa fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9 col-sm-12 content" role="main">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+                    <li class="breadcrumb-item"><a
+                            href="https://docs.laminas.dev/">Overview</a></li>
+                    <li class="breadcrumb-item">Status</li>
+
+
+                </ol>
+            </nav>
+            
+    <h2 class="chapter__headline" id="components">Components</h2>
+<h1 id="site-descriptions">Site Descriptions</h1>
+<p>Comparison of the descriptions:</p>
+<ul>
+<li>Repository</li>
+<li>MkDocs</li>
+<li>Composer</li>
+</ul>
+
+
+    <table>
+        
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-authentication">laminas-authentication</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>provides an API for authentication and includes concrete authentication adapters for common use case scenarios</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-authentication</dd>
+                            <dt>Composer description</dt>
+                            <dd>provides an API for authentication and includes concrete authentication adapters for common use case scenarios</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-barcode">laminas-barcode</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Programmatically create and render barcodes as images or in PDFs</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Programmatically create and render barcodes as images or in PDFs</dd>
+                            <dt>Composer description</dt>
+                            <dd>Programmatically create and render barcodes as images or in PDFs</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache">laminas-cache</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-apc">laminas-cache-storage-adapter-apc</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-apcu">laminas-cache-storage-adapter-apcu</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Laminas cache adapter for APCu</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for apcu</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-blackhole">laminas-cache-storage-adapter-blackhole</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for blackhole</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-dba">laminas-cache-storage-adapter-dba</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for dba</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-ext-mongodb">laminas-cache-storage-adapter-ext-mongodb</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for ext-mongodb</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-filesystem">laminas-cache-storage-adapter-filesystem</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for filesystem</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-memcache">laminas-cache-storage-adapter-memcache</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for memcache</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-memcached">laminas-cache-storage-adapter-memcached</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for memcached</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-memory">laminas-cache-storage-adapter-memory</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for memory</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-mongodb">laminas-cache-storage-adapter-mongodb</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for mongodb</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-redis">laminas-cache-storage-adapter-redis</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for redis</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-session">laminas-cache-storage-adapter-session</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for session</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-template">laminas-cache-storage-adapter-template</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for {adapter}</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-test">laminas-cache-storage-adapter-test</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Testing utilities for laminas-cache adapters</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache storage adapter shared test dependency</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-wincache">laminas-cache-storage-adapter-wincache</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for wincache</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-xcache">laminas-cache-storage-adapter-xcache</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for xcache</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cache-storage-adapter-zend-server">laminas-cache-storage-adapter-zend-server</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd></dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas cache adapter for zend-server</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-captcha">laminas-captcha</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Generate and validate CAPTCHAs using Figlets, images, ReCaptcha, and more</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-captcha</dd>
+                            <dt>Composer description</dt>
+                            <dd>Generate and validate CAPTCHAs using Figlets, images, ReCaptcha, and more</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-cli">laminas-cli</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Console command runner, exposing commands written in Laminas MVC and Mezzio components and applications</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Command-line interface for Laminas projects</dd>
+                            <dt>Composer description</dt>
+                            <dd>Command-line interface for Laminas projects</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-code">laminas-code</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Extensions to the PHP Reflection API, static code scanning, and code generation</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Extensions to the PHP Reflection API, static code scanning, and code generation</dd>
+                            <dt>Composer description</dt>
+                            <dd>Extensions to the PHP Reflection API, static code scanning, and code generation</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-coding-standard">laminas-coding-standard</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>The coding standard ruleset for Laminas components.</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>The coding standard ruleset for Laminas components.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas Coding Standard</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-component-installer">laminas-component-installer</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Composer plugin for injecting modules and configuration providers into application configuration</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Composer plugin for injecting modules and configuration providers into application configuration</dd>
+                            <dt>Composer description</dt>
+                            <dd>Composer plugin for injecting modules and configuration providers into application configuration</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-config">laminas-config</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>provides a nested object property based user interface for accessing this configuration data within application code</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Laminas\Config</dd>
+                            <dt>Composer description</dt>
+                            <dd>provides a nested object property based user interface for accessing this configuration data within application code</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-config-aggregator">laminas-config-aggregator</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Lightweight library for collecting and merging configuration from different sources</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Lightweight library for collecting and merging configuration from different sources.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Lightweight library for collecting and merging configuration from different sources</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-config-aggregator-modulemanager">laminas-config-aggregator-modulemanager</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Consume laminas-mvc modules as configuration providers within laminas-config-aggregator.</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Consume laminas-mvc modules as configuration providers within laminas-config-aggregator.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Consume laminas-mvc modules as configuration providers within laminas-config-aggregator.</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-config-aggregator-parameters">laminas-config-aggregator-parameters</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>PostProcessor extension for laminas/laminas-config-aggregator to allow usage of templated parameters within your configuration</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>PostProcessor extension for laminas/laminas-config-aggregator to allow usage of templated parameters within your configuration</dd>
+                            <dt>Composer description</dt>
+                            <dd>PostProcessor extension for laminas/laminas-config-aggregator to allow usage of templated parameters within your configuration</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-console">laminas-console</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Build console applications using getopt syntax or routing, complete with prompts</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Build console applications using getopt syntax or routing, complete with prompts</dd>
+                            <dt>Composer description</dt>
+                            <dd>Build console applications using getopt syntax or routing, complete with prompts</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-crypt">laminas-crypt</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Strong cryptography tools and password hashing</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Strong cryptography tools and password hashing.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Strong cryptography tools and password hashing</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-db">laminas-db</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations</dd>
+                            <dt>Composer description</dt>
+                            <dd>Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-dependency-plugin">laminas-dependency-plugin</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Replace zendframework and zfcampus packages with their Laminas Project equivalents.</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Intercept requests to install zendframework and zfcampus packages, and replace them with Laminas packages.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Replace zendframework and zfcampus packages with their Laminas Project equivalents.</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-di">laminas-di</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Automated dependency injection for PSR-11 containers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Automated dependency injection for PSR-11 containers</dd>
+                            <dt>Composer description</dt>
+                            <dd>Automated dependency injection for PSR-11 containers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-diactoros">laminas-diactoros</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>PSR HTTP Message implementations</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>PSR-7 HTTP message implementations</dd>
+                            <dt>Composer description</dt>
+                            <dd>PSR HTTP Message implementations</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-diagnostics">laminas-diagnostics</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>A set of components for performing diagnostic tests in PHP applications</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Universal set of diagnostic tests for PHP applications.</dd>
+                            <dt>Composer description</dt>
+                            <dd>A set of components for performing diagnostic tests in PHP applications</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-dom">laminas-dom</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>provides tools for working with DOM documents and structures</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-dom</dd>
+                            <dt>Composer description</dt>
+                            <dd>provides tools for working with DOM documents and structures</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-escaper">laminas-escaper</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs</dd>
+                            <dt>Composer description</dt>
+                            <dd>Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-eventmanager">laminas-eventmanager</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Trigger and listen to events within a PHP application</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Implement events, signal slots, aspects, and observers!</dd>
+                            <dt>Composer description</dt>
+                            <dd>Trigger and listen to events within a PHP application</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-feed">laminas-feed</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides functionality for consuming RSS and Atom feeds</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Consume and generate Atom and RSS feeds, and interact with Pubsubhubbub.</dd>
+                            <dt>Composer description</dt>
+                            <dd>provides functionality for consuming RSS and Atom feeds</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-file">laminas-file</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Locate PHP classfiles</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-file</dd>
+                            <dt>Composer description</dt>
+                            <dd>Locate PHP classfiles</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-filter">laminas-filter</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Programmatically filter and normalize data and files</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Programmatically filter and normalize data and files.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Programmatically filter and normalize data and files</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-form">laminas-form</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Validate and display simple and complex forms, casting forms to business objects and vice versa</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Validate and display simple and complex forms, casting forms to business objects and vice versa.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Validate and display simple and complex forms, casting forms to business objects and vice versa</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-http">laminas-http</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>HTTP message and header abstractions, and HTTP client implementation.  (Not a PSR-7 implementation; see &lt;a href=&#34;//docs.laminas.dev/laminas-diactoros&#34;&gt;Diactoros&lt;/a&gt; for PSR-7 support.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-httphandlerrunner">laminas-httphandlerrunner</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-hydrator">laminas-hydrator</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Serialize objects to arrays, and vice versa</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Serialize objects to arrays, and vice versa</dd>
+                            <dt>Composer description</dt>
+                            <dd>Serialize objects to arrays, and vice versa</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-i18n">laminas-i18n</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provide translations for your application, and filter and validate internationalized values</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Provide translations for your application, and filter and validate internationalized values.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provide translations for your application, and filter and validate internationalized values</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-i18n-resources">laminas-i18n-resources</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides validator and captcha translations for laminas-i18n&#39;s Translator</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Provides validator and captcha translations for laminas-i18n&#39;s Translator</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides validator and captcha translations for laminas-i18n&#39;s Translator</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-inputfilter">laminas-inputfilter</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Normalize and validate input sets from the web, APIs, the CLI, and more, including files</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Normalize and validate input sets from the web, APIs, the CLI, and more, including files.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Normalize and validate input sets from the web, APIs, the CLI, and more, including files</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-json">laminas-json</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>De/Serialize JSON in PHP, including JavaScript expressions</dd>
+                            <dt>Composer description</dt>
+                            <dd>provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-json-server">laminas-json-server</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Laminas Json-Server is a JSON-RPC server implementation.</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Laminas\Json\Server</dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas Json-Server is a JSON-RPC server implementation.</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-ldap">laminas-ldap</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-loader">laminas-loader</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Autoloading and plugin loading strategies</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Autoloading and plugin loading strategies</dd>
+                            <dt>Composer description</dt>
+                            <dd>Autoloading and plugin loading strategies</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-log">laminas-log</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Robust, composite logger with filtering, formatting, and PSR-3 support</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Robust, composite logger with filtering, formatting, and PSR-3 support.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Robust, composite logger with filtering, formatting, and PSR-3 support</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mail">laminas-mail</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Parse, create, store, and send email messages, using a variety of storage and transport protocols.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-math">laminas-math</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Create cryptographically secure pseudo-random numbers, and manage big integers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-math</dd>
+                            <dt>Composer description</dt>
+                            <dd>Create cryptographically secure pseudo-random numbers, and manage big integers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-memory">laminas-memory</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Manage data in an environment with limited memory</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Manage data in an environment with limited memory</dd>
+                            <dt>Composer description</dt>
+                            <dd>Manage data in an environment with limited memory</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mime">laminas-mime</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Create and parse MIME messages and parts</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Create and parse MIME messages and parts</dd>
+                            <dt>Composer description</dt>
+                            <dd>Create and parse MIME messages and parts</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-modulemanager">laminas-modulemanager</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Modular application system for laminas-mvc applications</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Modular application system for laminas-mvc applications</dd>
+                            <dt>Composer description</dt>
+                            <dd>Modular application system for laminas-mvc applications</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc">laminas-mvc</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Laminas&#39;s event-driven MVC layer, including MVC Applications, Controllers, and Plugins</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Laminas&#39; event-driven MVC layer, including MVC Applications, Controllers, and Plugins.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Laminas&#39;s event-driven MVC layer, including MVC Applications, Controllers, and Plugins</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-console">laminas-mvc-console</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Integration between laminas-mvc and laminas-console</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Integration between laminas-mvc and laminas-console.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Integration between laminas-mvc and laminas-console</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-i18n">laminas-mvc-i18n</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Integration between laminas-mvc and laminas-i18n</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Integration between laminas-mvc and laminas-i18n</dd>
+                            <dt>Composer description</dt>
+                            <dd>Integration between laminas-mvc and laminas-i18n</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-middleware">laminas-mvc-middleware</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Dispatch middleware pipelines in place of controllers in laminas-mvc.</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Dispatch middleware pipelines in place of controllers in laminas-mvc.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Dispatch middleware pipelines in place of controllers in laminas-mvc.</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-plugin-fileprg">laminas-mvc-plugin-fileprg</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Post/Redirect/Get plugin with file upload handling for laminas-mvc controllers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Post/Redirect/Get plugin with file upload handling for laminas-mvc controllers</dd>
+                            <dt>Composer description</dt>
+                            <dd>Post/Redirect/Get plugin with file upload handling for laminas-mvc controllers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-plugin-flashmessenger">laminas-mvc-plugin-flashmessenger</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Plugin for creating and exposing flash messages via laminas-mvc controllers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Plugin for creating and exposing flash messages via laminas-mvc controllers</dd>
+                            <dt>Composer description</dt>
+                            <dd>Plugin for creating and exposing flash messages via laminas-mvc controllers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-plugin-identity">laminas-mvc-plugin-identity</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Plugin for retrieving the current authenticated identity within laminas-mvc controllers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Plugin for retrieving the current authenticated identity within laminas-mvc controllers</dd>
+                            <dt>Composer description</dt>
+                            <dd>Plugin for retrieving the current authenticated identity within laminas-mvc controllers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-mvc-plugin-prg">laminas-mvc-plugin-prg</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Post/Redirect/Get plugin for laminas-mvc controllers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Post/Redirect/Get plugin for laminas-mvc controllers</dd>
+                            <dt>Composer description</dt>
+                            <dd>Post/Redirect/Get plugin for laminas-mvc controllers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-navigation">laminas-navigation</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Manage trees of pointers to web pages in order to build navigation systems</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Manage trees of pointers to web pages in order to build navigation systems.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Manage trees of pointers to web pages in order to build navigation systems</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-paginator">laminas-paginator</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Paginate collections of data from arbitrary sources</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Paginate collections of data from arbitrary sources</dd>
+                            <dt>Composer description</dt>
+                            <dd>Paginate collections of data from arbitrary sources</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-permissions-acl">laminas-permissions-acl</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides a lightweight and flexible access control list (ACL) implementation for privileges management</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Create, manage, and query access control lists.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides a lightweight and flexible access control list (ACL) implementation for privileges management</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-permissions-rbac">laminas-permissions-rbac</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides a role-based access control management</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-permissions-rbac</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides a role-based access control management</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-progressbar">laminas-progressbar</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Create and update progress bars in different environments</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Create and update progress bars in different environments</dd>
+                            <dt>Composer description</dt>
+                            <dd>Create and update progress bars in different environments</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-psr7bridge">laminas-psr7bridge</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>PSR-7 &lt;-&gt; laminas-http message conversions</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-psr7bridge</dd>
+                            <dt>Composer description</dt>
+                            <dd>PSR-7 &amp;lt;-&amp;gt; laminas-http message conversions</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-recaptcha">laminas-recaptcha</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>OOP wrapper for the ReCaptcha web service</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>OOP wrapper for the ReCaptcha web service</dd>
+                            <dt>Composer description</dt>
+                            <dd>OOP wrapper for the ReCaptcha web service</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-router">laminas-router</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Flexible routing system for HTTP and console applications</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-router: Flexible routing system for HTTP applications</dd>
+                            <dt>Composer description</dt>
+                            <dd>Flexible routing system for HTTP and console applications</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-serializer">laminas-serializer</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Serialize and deserialize PHP structures to a variety of representations</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Serialize and deserialize PHP structures to a variety of representations</dd>
+                            <dt>Composer description</dt>
+                            <dd>Serialize and deserialize PHP structures to a variety of representations</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-server">laminas-server</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Create Reflection-based RPC servers</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-server</dd>
+                            <dt>Composer description</dt>
+                            <dd>Create Reflection-based RPC servers</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-servicemanager">laminas-servicemanager</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Factory-Driven Dependency Injection Container</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-servicemanager: factory-driven dependency injection container</dd>
+                            <dt>Composer description</dt>
+                            <dd>Factory-Driven Dependency Injection Container</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-servicemanager-di">laminas-servicemanager-di</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>laminas-di integration for laminas-servicemanager</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-di integration for laminas-servicemanager</dd>
+                            <dt>Composer description</dt>
+                            <dd>laminas-di integration for laminas-servicemanager</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-session">laminas-session</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Object-oriented interface to PHP sessions and storage</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Object-oriented interface to PHP sessions and storage.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Object-oriented interface to PHP sessions and storage</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-skeleton-installer">laminas-skeleton-installer</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Installer plugin for Laminas MVC Skeleton application</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Composer plugin for providing and prompting for optional components in skeleton projects.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Installer plugin for Laminas skeleton application</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-soap">laminas-soap</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd></dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-soap</dd>
+                            <dt>Composer description</dt>
+                            <dd> </dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-stdlib">laminas-stdlib</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>SPL extensions, array utilities, error handlers, and more</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Laminas\Stdlib</dd>
+                            <dt>Composer description</dt>
+                            <dd>SPL extensions, array utilities, error handlers, and more</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-stratigility">laminas-stratigility</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>PSR-7 middleware foundation for building and dispatching middleware pipelines</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-stratigility</dd>
+                            <dt>Composer description</dt>
+                            <dd>PSR-7 middleware foundation for building and dispatching middleware pipelines</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-tag">laminas-tag</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Manipulate and weight taggable items, and create tag clouds</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Laminas\Tag</dd>
+                            <dt>Composer description</dt>
+                            <dd>Manipulate and weight taggable items, and create tag clouds</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-test">laminas-test</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Tools to facilitate unit testing of laminas-mvc applications</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>laminas-test</dd>
+                            <dt>Composer description</dt>
+                            <dd>Tools to facilitate unit testing of laminas-mvc applications</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-text">laminas-text</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Create FIGlets and text-based tables</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Create FIGlets and text-based tables</dd>
+                            <dt>Composer description</dt>
+                            <dd>Create FIGlets and text-based tables</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-twitter">laminas-twitter</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>OOP wrapper for the Twitter web service</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>PHP OOP wrapper for the Twitter API</dd>
+                            <dt>Composer description</dt>
+                            <dd>OOP wrapper for the Twitter web service</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-uri">laminas-uri</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>A component that aids in manipulating and validating » Uniform Resource Identifiers (URIs)</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Object oriented interface to URIs, with facilities for validation</dd>
+                            <dt>Composer description</dt>
+                            <dd>A component that aids in manipulating and validating » Uniform Resource Identifiers (URIs)</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-validator">laminas-validator</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-view">laminas-view</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Flexible view layer supporting and providing multiple view layers, helpers, and more</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Flexible view layer supporting and providing multiple view layers, helpers, and more.</dd>
+                            <dt>Composer description</dt>
+                            <dd>Flexible view layer supporting and providing multiple view layers, helpers, and more</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-xml2json">laminas-xml2json</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Provides functionality for converting XML to JSON, optionally including XML attributes</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Convert XML documents to JSON</dd>
+                            <dt>Composer description</dt>
+                            <dd>Provides functionality for converting XML to JSON, optionally including XML attributes</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/laminas-xmlrpc">laminas-xmlrpc</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Fully-featured XML-RPC server and client implementations</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Fully-featured XML-RPC server and client implementations</dd>
+                            <dt>Composer description</dt>
+                            <dd>Fully-featured XML-RPC server and client implementations</dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></td>
+                </tr>
+            
+                <tr class="text-danger">
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/tutorials">tutorials</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>Learn how to create laminas-mvc applications, get in-depth guides into components, and discover how to migrate your applications to version 3!</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>Learn how to create laminas-mvc applications, get in-depth guides into components, and discover how to migrate your applications to version 3!</dd>
+                            <dt>Composer description</dt>
+                            <dd></dd>
+                        </dl>
+                    </td>
+                    <td><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+                </tr>
+            
+        
+
+        
+    </table>
+
+        </div>
+        <div class="col-md-3 col-sm-12 sidebar">
+
+            <div class="component-selector">
+
+                <h5 class="component-selector__subtitle">Find
+                    documentation…</h5>
+                <select class="form-control component-selector__control">
+                    <option value="https://docs.laminas.dev">Overview</option>
+                    <optgroup label="Components"></optgroup>
+                </select>
+            </div>
+
+            <div class="subnavigation hidden-print">
+                <h4 class="subnavigation__title">
+                    <a href="https://froschdesign.github.io/documentation-status/">documentation-status</a>
+                </h4>
+
+                <h5 class="subnavigation__subtitle">Table of Contents</h5>
+
+                <ul class="subnavigation__list">
+                    
+                    
+                    <li class="subnavigation__list-item">
+                        
+                            <span class="subnavigation__headline">Components</span>
+                            <ul class="subnavigation__list">
+                                
+                                <li class="subnavigation__list-item">
+                                    <a class="subnavigation__link" href="/documentation-status/components/documentation-listed" title="">
+                                        Documentation Listed
+                                    </a>
+                                </li>
+                                
+                                <li class="subnavigation__list-item subnavigation__list-item--active">
+                                    <a class="subnavigation__link" href="/documentation-status/components/site-descriptions" title="">
+                                        Site Descriptions
+                                    </a>
+                                </li>
+                                
+                                <li class="subnavigation__list-item">
+                                    <a class="subnavigation__link" href="/documentation-status/components/installation-page" title="">
+                                        Installation Page
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                    </li>
+                    
+                    <li class="subnavigation__list-item">
+                        
+                            <span class="subnavigation__headline">Mezzio</span>
+                            <ul class="subnavigation__list">
+                                
+                                <li class="subnavigation__list-item">
+                                    <a class="subnavigation__link" href="/documentation-status/mezzio/documentation-listed" title="">
+                                        Documentation Listed
+                                    </a>
+                                </li>
+                                
+                                <li class="subnavigation__list-item">
+                                    <a class="subnavigation__link" href="/documentation-status/mezzio/site-descriptions" title="">
+                                        Site Descriptions
+                                    </a>
+                                </li>
+                                
+                                <li class="subnavigation__list-item">
+                                    <a class="subnavigation__link" href="/documentation-status/mezzio/installation-page" title="">
+                                        Installation Page
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        
+                    </li>
+                    
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a class="footer__button" href="#page-top"><i
+                        class="fa fa-chevron-up" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Laminas</h5>
+                <ul>
+                    <li>Laminas Project <a href="https://getlaminas.org/">The
+                        new foundation for the community-supported, open source
+                        continuation of Zend Framework</a></li>
+                    <li>Laminas Components and MVC <a
+                            href="https://docs.laminas.dev/">Components and MVC
+                        for enterprise applications</a></li>
+                    <li>Mezzio <a href="https://docs.mezzio.dev/">PSR-15
+                        middleware in minutes</a></li>
+                    <li>Laminas API Tools <a
+                            href="https://api-tools.getlaminas.org/">Build
+                        RESTful APIs in minutes</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+
+                    <div class="col-md-4">
+                        <h4 class="footer__headline">Support</h4>
+                        <ul class="support__list">
+                            <li class="support__list-item">
+                                <a href="https://discourse.laminas.dev"
+                                   class="support__link" title="Forum"><i
+                                        class="fa fa-comments"></i></a>
+                            </li>
+                            <li class="support__list-item">
+                                <a href="https://laminas.dev/chat"
+                                   class="support__link" title="Chat"><i
+                                        class="fa fa-slack"></i></a>
+                            </li>
+                            <li class="support__list-item">
+                                <a href="https://github.com/laminas"
+                                   class="support__link" title="Github"><i
+                                        class="fa fa-github"></i></a>
+                            </li>
+                            <li class="support__list-item">
+                                <a href="https://twitter.com/getlaminas"
+                                   class="support__link" title="Twitter"><i
+                                        class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="support__list-item">
+                                <a href="https://getlaminas.org/blog/rss.xml"
+                                   class="support__link" title="Blog feed"><i
+                                        class="fa fa-rss"></i></a>
+                            </li>
+                            <li class="support__list-item">
+                                <a href="https://getlaminas.org/security/feed"
+                                   class="support__link"
+                                   title="Security feed"><i
+                                        class="fa fa-rss-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <h4 class="footer__headline">License</h4>
+                        <p>
+                            Code licensed under <a
+                                href="https://github.com/laminas/laminas-i18n-resources/blob/master/LICENSE.md">BSD
+                            3-Clause</a>.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <h4 class="footer__headline">Copyright</h4>
+                        <p>
+                            
+                            &copy; 2020 <a href="https://getlaminas.org/">Laminas
+                            Project</a> a Series of LF Projects, LLC.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let base_url = '.',
+        project = '',
+        siteName = '';
+</script>
+<script src="https://docs.laminas.dev/js/scripts.js"></script>
+</body>
+</html>
