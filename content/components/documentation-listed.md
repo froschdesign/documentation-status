@@ -1,7 +1,10 @@
 +++
 title = "Documentation Listed"
 type = "documentation-listed"
+subproject = "components"
 +++
+
+## Components {.chapter__headline}
 
 # Documentation Listed
 

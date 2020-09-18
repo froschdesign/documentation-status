@@ -1,0 +1,210 @@
+[
+    {
+        "repo": "laminas-cache",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-db",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-di",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-diactoros",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-filter",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-form",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-httphandlerrunner",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-hydrator",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-i18n",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
+    },
+    {
+        "repo": "laminas-inputfilter",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-log",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mail",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-console",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-i18n",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-middleware",
+        "config_provider_class": false,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-plugin-fileprg",
+        "config_provider_class": false,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-plugin-flashmessenger",
+        "config_provider_class": false,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-plugin-identity",
+        "config_provider_class": false,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-mvc-plugin-prg",
+        "config_provider_class": false,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-navigation",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-paginator",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
+    },
+    {
+        "repo": "laminas-router",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-serializer",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-servicemanager-di",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-session",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-validator",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    }
+]

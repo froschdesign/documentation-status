@@ -11,18 +11,37 @@
             <th>Installation file</th>
             <th></th>
         </tr>
-    {{ range $.Site.Data.installation_page }}
-        <tr{{ if or (eq .config_provider_class false) (eq .module_class false) (eq .config_provider_class_in_config false) (eq .module_class_in_config false) (eq .page false)}} class="text-danger"{{end}}>
-            <td>
-                <a href="https://docs.laminas.dev/{{ .repo }}">{{ .repo }}</a>
-            </td>
-            <td>{{ .config_provider_class }}</td>
-            <td>{{ .module_class }}</td>
-            <td>{{ .config_provider_class_in_config }}</td>
-            <td>{{ .module_class_in_config }}</td>
-            <td>{{ .page }}</td>
-            <td>{{ if and .config_provider_class .module_class .config_provider_class_in_config .module_class_in_config .page}}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
-        </tr>
-    {{ end }}
+
+        {{ if eq .Params.subproject "components" }}
+            {{ range sort $.Site.Data.laminas.installation_page "repo" }}
+                <tr{{ if or (eq .config_provider_class false) (eq .module_class false) (eq .config_provider_class_in_config false) (eq .module_class_in_config false) (eq .page false)}} class="text-danger"{{end}}>
+                    <td>
+                        <a href="https://docs.laminas.dev/{{ .repo }}">{{ .repo }}</a>
+                    </td>
+                    <td>{{ .config_provider_class }}</td>
+                    <td>{{ .module_class }}</td>
+                    <td>{{ .config_provider_class_in_config }}</td>
+                    <td>{{ .module_class_in_config }}</td>
+                    <td>{{ .page }}</td>
+                    <td>{{ if and .config_provider_class .module_class .config_provider_class_in_config .module_class_in_config .page}}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+
+        {{ if eq .Params.subproject "mezzio" }}
+            {{ range sort $.Site.Data.mezzio.installation_page "repo" }}
+                <tr{{ if or (eq .config_provider_class false) (eq .module_class false) (eq .config_provider_class_in_config false) (eq .module_class_in_config false) (eq .page false)}} class="text-danger"{{end}}>
+                    <td>
+                        <a href="https://docs.mezzio.dev/{{ .repo }}">{{ .repo }}</a>
+                    </td>
+                    <td>{{ .config_provider_class }}</td>
+                    <td>{{ .module_class }}</td>
+                    <td>{{ .config_provider_class_in_config }}</td>
+                    <td>{{ .module_class_in_config }}</td>
+                    <td>{{ .page }}</td>
+                    <td>{{ if and .config_provider_class .module_class .config_provider_class_in_config .module_class_in_config .page}}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
     </table>
 {{ end }}

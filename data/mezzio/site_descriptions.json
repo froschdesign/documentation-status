@@ -1,0 +1,164 @@
+[
+    {
+        "repo": "mezzio-authentication-laminasauthentication",
+        "repo_description": "laminas-authentication adapter for mezzio-authentication.",
+        "site_description": "laminas-authentication adapter for mezzio-authentication.",
+        "composer_description": "laminas-authentication adapter for mezzio-authentication.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio",
+        "repo_description": "PSR-15 Middleware Microframework",
+        "site_description": "PSR-15 Middleware in Minutes",
+        "composer_description": "PSR-15 Middleware Microframework",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authentication",
+        "repo_description": "Authentication middleware for Mezzio and PSR-7 applications",
+        "site_description": "Authentication middleware for Mezzio and PSR-7 applications",
+        "composer_description": "Authentication middleware for Mezzio and PSR-7 applications",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authentication-basic",
+        "repo_description": "HTTP Basic Authentication adapter for mezzio-authentication.",
+        "site_description": "HTTP Basic Authentication adapter for mezzio-authentication.",
+        "composer_description": "HTTP Basic Authentication adapter for mezzio-authentication.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authentication-oauth2",
+        "repo_description": "OAuth2 (server) authentication middleware for Mezzio and PSR-7 applications.",
+        "site_description": "OAuth2 (server) for Mezzio and PSR-7 applications.",
+        "composer_description": "OAuth2 (server) authentication middleware for Mezzio and PSR-7 applications.",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authentication-session",
+        "repo_description": "Username/password, session-backed authentication adapter for mezzio-authentication.",
+        "site_description": "Username/password, session-backed authentication adapter for mezzio-authentication.",
+        "composer_description": "Username/password, session-backed authentication adapter for mezzio-authentication.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authorization",
+        "repo_description": "Authorization middleware for Mezzio and PSR-7 applications",
+        "site_description": "Authorization middleware for Mezzio and PSR-7 applications",
+        "composer_description": "Authorization middleware for Mezzio and PSR-7 applications",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authorization-acl",
+        "repo_description": "laminas-permissions-acl adapter for mezzio-authorization",
+        "site_description": "ACL permission adapter for mezzio-authorization.",
+        "composer_description": "laminas-permissions-acl adapter for mezzio-authorization",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-authorization-rbac",
+        "repo_description": "Description of project goes here",
+        "site_description": "RBAC permission adapter for mezzio-authorization.",
+        "composer_description": "Description of project goes here",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-csrf",
+        "repo_description": "CSRF token generation and validation for PSR-7 and PSR-15 applications using mezzio-session",
+        "site_description": "CSRF protection for PSR-7 applications using mezzio-session",
+        "composer_description": "CSRF token generation and validation for PSR-7 and PSR-15 applications using mezzio-session",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-flash",
+        "repo_description": "Flash messages for PSR-7 and PSR-15 applications using mezzio-session",
+        "site_description": "Flash messages for PSR-7 applications using mezzio-session",
+        "composer_description": "Flash messages for PSR-7 and PSR-15 applications using mezzio-session",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-hal",
+        "repo_description": "Hypertext Application Language implementation for PHP and PSR-7",
+        "site_description": "Hypertext Application Language for PSR-7 Applications",
+        "composer_description": "Hypertext Application Language implementation for PHP and PSR-7",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-problem-details",
+        "repo_description": "Problem Details for PSR-7 HTTP APIs",
+        "site_description": "PSR-7 Problem Details for HTTP API responses and middleware",
+        "composer_description": "Problem Details for PSR-7 HTTP APIs",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-session",
+        "repo_description": "Session container and middleware for PSR-7 applications",
+        "site_description": "Sessions and session middleware for PSR-7 applications.",
+        "composer_description": "Session container and middleware for PSR-7 applications",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-session-cache",
+        "repo_description": "PSR-6 session persistence adapter for mezzio-session.",
+        "site_description": "PSR-6 session persistence adapter for mezzio-session.",
+        "composer_description": "PSR-6 session persistence adapter for mezzio-session.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-session-ext",
+        "repo_description": "ext-session persistence adapter for mezzio-session",
+        "site_description": "PHP ext-session persistence adapter for mezzio-session",
+        "composer_description": "ext-session persistence adapter for mezzio-session",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-swoole",
+        "repo_description": "Swoole support for Mezzio",
+        "site_description": "Swoole support for Mezzio",
+        "composer_description": "Swoole support for Mezzio",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "mezzio-cors",
+        "repo_description": "CORS component for Mezzio and other PSR-15 middleware runners.",
+        "site_description": "CORS component for Mezzio and other PSR-15 middleware runners.",
+        "composer_description": "CORS component for Mezzio and other PSR-15 middleware runners.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    }
+]

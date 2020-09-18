@@ -1,0 +1,146 @@
+[
+    {
+        "repo": "mezzio-authentication-laminasauthentication",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authentication",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authentication-basic",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authentication-oauth2",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authentication-session",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authorization",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authorization-acl",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-authorization-rbac",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-csrf",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-flash",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-hal",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-problem-details",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-session",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-session-cache",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-session-ext",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-swoole",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "mezzio-cors",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": true,
+        "module_class_in_config": false,
+        "page": false
+    }
+]

@@ -2,24 +2,48 @@
     {{.Content}}
 
     <table>
-    {{ range $.Site.Data.site_descriptions }}
-        <tr{{ if eq .equal false}} class="text-danger"{{end}}>
-            <td>
-                <h4>
-                    <a href="https://docs.laminas.dev/{{ .repo }}">{{ .repo }}</a>
-                </h4>
+        {{ if eq .Params.subproject "components" }}
+            {{ range sort $.Site.Data.laminas.site_descriptions "repo" }}
+                <tr{{ if eq .equal false}} class="text-danger"{{end}}>
+                    <td>
+                        <h4>
+                            <a href="https://docs.laminas.dev/{{ .repo }}">{{ .repo }}</a>
+                        </h4>
 
-                <dl class="mt-3">
-                    <dt>Repository description</dt>
-                    <dd>{{ .repo_description }}</dd>
-                    <dt>MkDocs site description</dt>
-                    <dd>{{ .site_description }}</dd>
-                    <dt>Composer description</dt>
-                    <dd>{{ .composer_description }}</dd>
-                </dl>
-            </td>
-            <td>{{ if .equal }}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
-        </tr>
-    {{ end }}
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>{{ .repo_description }}</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>{{ .site_description }}</dd>
+                            <dt>Composer description</dt>
+                            <dd>{{ .composer_description }}</dd>
+                        </dl>
+                    </td>
+                    <td>{{ if .equal }}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+
+        {{ if eq .Params.subproject "mezzio" }}
+            {{ range sort $.Site.Data.mezzio.site_descriptions "repo" }}
+                <tr{{ if eq .equal false}} class="text-danger"{{end}}>
+                    <td>
+                        <h4>
+                            <a href="https://docs.mezzio.dev/{{ .repo }}">{{ .repo }}</a>
+                        </h4>
+
+                        <dl class="mt-3">
+                            <dt>Repository description</dt>
+                            <dd>{{ .repo_description }}</dd>
+                            <dt>MkDocs site description</dt>
+                            <dd>{{ .site_description }}</dd>
+                            <dt>Composer description</dt>
+                            <dd>{{ .composer_description }}</dd>
+                        </dl>
+                    </td>
+                    <td>{{ if .equal }}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
     </table>
 {{ end }}

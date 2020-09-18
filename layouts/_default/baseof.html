@@ -224,10 +224,23 @@
                 <ul class="subnavigation__list">
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
-                    <li class="subnavigation__list-item{{ if eq $currentPage.URL .URL }} subnavigation__list-item--active{{end}}">
-                        <a class="subnavigation__link" href="{{ .URL }}" title="{{ .Title }}">
-                            {{ .Name }}
-                        </a>
+                    <li class="subnavigation__list-item">
+                        {{ if .HasChildren }}
+                            <span class="subnavigation__headline">{{ .Name }}</span>
+                            <ul class="subnavigation__list">
+                                {{ range .Children }}
+                                <li class="subnavigation__list-item{{ if strings.Contains $currentPage.Permalink .URL }} subnavigation__list-item--active{{end}}">
+                                    <a class="subnavigation__link" href="{{ .URL }}" title="{{ .Title }}">
+                                        {{ .Name }}
+                                    </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        {{ else }}
+                            <a class="subnavigation__link" href="{{ .URL }}" title="{{ .Title }}">
+                                {{ .Name }}
+                            </a>
+                        {{ end }}
                     </li>
                     {{ end }}
 

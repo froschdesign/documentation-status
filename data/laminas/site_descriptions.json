@@ -1,0 +1,848 @@
+[
+    {
+        "repo": "laminas-dependency-plugin",
+        "repo_description": "Replace zendframework and zfcampus packages with their Laminas Project equivalents.",
+        "site_description": "Intercept requests to install zendframework and zfcampus packages, and replace them with Laminas packages.",
+        "composer_description": "Replace zendframework and zfcampus packages with their Laminas Project equivalents.",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-authentication",
+        "repo_description": "provides an API for authentication and includes concrete authentication adapters for common use case scenarios",
+        "site_description": "laminas-authentication",
+        "composer_description": "provides an API for authentication and includes concrete authentication adapters for common use case scenarios",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-barcode",
+        "repo_description": "Programmatically create and render barcodes as images or in PDFs",
+        "site_description": "Programmatically create and render barcodes as images or in PDFs",
+        "composer_description": "Programmatically create and render barcodes as images or in PDFs",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-cache",
+        "repo_description": "Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output",
+        "site_description": "Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output.",
+        "composer_description": "Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-captcha",
+        "repo_description": "Generate and validate CAPTCHAs using Figlets, images, ReCaptcha, and more",
+        "site_description": "laminas-captcha",
+        "composer_description": "Generate and validate CAPTCHAs using Figlets, images, ReCaptcha, and more",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-code",
+        "repo_description": "Extensions to the PHP Reflection API, static code scanning, and code generation",
+        "site_description": "Extensions to the PHP Reflection API, static code scanning, and code generation",
+        "composer_description": "Extensions to the PHP Reflection API, static code scanning, and code generation",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-coding-standard",
+        "repo_description": "The coding standard ruleset for Laminas components.",
+        "site_description": "The coding standard ruleset for Laminas components.",
+        "composer_description": "Laminas Coding Standard",
+        "equal": false,
+        "equal_repo_site": true,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-component-installer",
+        "repo_description": "Composer plugin for injecting modules and configuration providers into application configuration",
+        "site_description": "Composer plugin for injecting modules and configuration providers into application configuration",
+        "composer_description": "Composer plugin for injecting modules and configuration providers into application configuration",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-config",
+        "repo_description": "provides a nested object property based user interface for accessing this configuration data within application code",
+        "site_description": "Laminas\\Config",
+        "composer_description": "provides a nested object property based user interface for accessing this configuration data within application code",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-config-aggregator",
+        "repo_description": "Lightweight library for collecting and merging configuration from different sources",
+        "site_description": "Lightweight library for collecting and merging configuration from different sources.",
+        "composer_description": "Lightweight library for collecting and merging configuration from different sources",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-config-aggregator-modulemanager",
+        "repo_description": "Consume laminas-mvc modules as configuration providers within laminas-config-aggregator.",
+        "site_description": "Consume laminas-mvc modules as configuration providers within laminas-config-aggregator.",
+        "composer_description": "Consume laminas-mvc modules as configuration providers within laminas-config-aggregator.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-config-aggregator-parameters",
+        "repo_description": "PostProcessor extension for laminas/laminas-config-aggregator to allow usage of templated parameters within your configuration",
+        "site_description": "PostProcessor extension for laminas/laminas-config-aggregator to allow usage of templated parameters within your configuration",
+        "composer_description": "PostProcessor extension for laminas/laminas-config-aggregator to allow usage of templated parameters within your configuration",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-console",
+        "repo_description": "Build console applications using getopt syntax or routing, complete with prompts",
+        "site_description": "Build console applications using getopt syntax or routing, complete with prompts",
+        "composer_description": "Build console applications using getopt syntax or routing, complete with prompts",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-crypt",
+        "repo_description": "Strong cryptography tools and password hashing",
+        "site_description": "Strong cryptography tools and password hashing.",
+        "composer_description": "Strong cryptography tools and password hashing",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-db",
+        "repo_description": "Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations",
+        "site_description": "Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations",
+        "composer_description": "Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-di",
+        "repo_description": "Automated dependency injection for PSR-11 containers",
+        "site_description": "Automated dependency injection for PSR-11 containers",
+        "composer_description": "Automated dependency injection for PSR-11 containers",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-diactoros",
+        "repo_description": "PSR HTTP Message implementations",
+        "site_description": "PSR-7 HTTP message implementations",
+        "composer_description": "PSR HTTP Message implementations",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-diagnostics",
+        "repo_description": "A set of components for performing diagnostic tests in PHP applications",
+        "site_description": "Universal set of diagnostic tests for PHP applications.",
+        "composer_description": "A set of components for performing diagnostic tests in PHP applications",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-dom",
+        "repo_description": "provides tools for working with DOM documents and structures",
+        "site_description": "laminas-dom",
+        "composer_description": "provides tools for working with DOM documents and structures",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-escaper",
+        "repo_description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
+        "site_description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
+        "composer_description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-eventmanager",
+        "repo_description": "Trigger and listen to events within a PHP application",
+        "site_description": "Implement events, signal slots, aspects, and observers!",
+        "composer_description": "Trigger and listen to events within a PHP application",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-feed",
+        "repo_description": "Provides functionality for consuming RSS and Atom feeds",
+        "site_description": "Consume and generate Atom and RSS feeds, and interact with Pubsubhubbub.",
+        "composer_description": "provides functionality for consuming RSS and Atom feeds",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-file",
+        "repo_description": "Locate PHP classfiles",
+        "site_description": "laminas-file",
+        "composer_description": "Locate PHP classfiles",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-filter",
+        "repo_description": "Programmatically filter and normalize data and files",
+        "site_description": "Programmatically filter and normalize data and files.",
+        "composer_description": "Programmatically filter and normalize data and files",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-form",
+        "repo_description": "Validate and display simple and complex forms, casting forms to business objects and vice versa",
+        "site_description": "Validate and display simple and complex forms, casting forms to business objects and vice versa.",
+        "composer_description": "Validate and display simple and complex forms, casting forms to business objects and vice versa",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-http",
+        "repo_description": "Provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests",
+        "site_description": "HTTP message and header abstractions, and HTTP client implementation.  (Not a PSR-7 implementation; see <a href=\"//docs.laminas.dev/laminas-diactoros\">Diactoros</a> for PSR-7 support.",
+        "composer_description": "Provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-httphandlerrunner",
+        "repo_description": "Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.",
+        "site_description": "Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.",
+        "composer_description": "Execute PSR-15 RequestHandlerInterface instances and emit responses they generate.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-hydrator",
+        "repo_description": "Serialize objects to arrays, and vice versa",
+        "site_description": "Serialize objects to arrays, and vice versa",
+        "composer_description": "Serialize objects to arrays, and vice versa",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-i18n",
+        "repo_description": "Provide translations for your application, and filter and validate internationalized values",
+        "site_description": "Provide translations for your application, and filter and validate internationalized values.",
+        "composer_description": "Provide translations for your application, and filter and validate internationalized values",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-i18n-resources",
+        "repo_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "site_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "composer_description": "Provides validator and captcha translations for laminas-i18n's Translator",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-inputfilter",
+        "repo_description": "Normalize and validate input sets from the web, APIs, the CLI, and more, including files",
+        "site_description": "Normalize and validate input sets from the web, APIs, the CLI, and more, including files.",
+        "composer_description": "Normalize and validate input sets from the web, APIs, the CLI, and more, including files",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-json",
+        "repo_description": "provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP",
+        "site_description": "De/Serialize JSON in PHP, including JavaScript expressions",
+        "composer_description": "provides convenience methods for serializing native PHP to JSON and decoding JSON to native PHP",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-json-server",
+        "repo_description": "Laminas Json-Server is a JSON-RPC server implementation.",
+        "site_description": "Laminas\\Json\\Server",
+        "composer_description": "Laminas Json-Server is a JSON-RPC server implementation.",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-ldap",
+        "repo_description": "Provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory",
+        "site_description": "Provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory",
+        "composer_description": "Provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-loader",
+        "repo_description": "Autoloading and plugin loading strategies",
+        "site_description": "Autoloading and plugin loading strategies",
+        "composer_description": "Autoloading and plugin loading strategies",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-log",
+        "repo_description": "Robust, composite logger with filtering, formatting, and PSR-3 support",
+        "site_description": "Robust, composite logger with filtering, formatting, and PSR-3 support.",
+        "composer_description": "Robust, composite logger with filtering, formatting, and PSR-3 support",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mail",
+        "repo_description": "Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+        "site_description": "Parse, create, store, and send email messages, using a variety of storage and transport protocols.",
+        "composer_description": "Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-math",
+        "repo_description": "Create cryptographically secure pseudo-random numbers, and manage big integers",
+        "site_description": "laminas-math",
+        "composer_description": "Create cryptographically secure pseudo-random numbers, and manage big integers",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-memory",
+        "repo_description": "Manage data in an environment with limited memory",
+        "site_description": "Manage data in an environment with limited memory",
+        "composer_description": "Manage data in an environment with limited memory",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mime",
+        "repo_description": "Create and parse MIME messages and parts",
+        "site_description": "Create and parse MIME messages and parts",
+        "composer_description": "Create and parse MIME messages and parts",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-modulemanager",
+        "repo_description": "Modular application system for laminas-mvc applications",
+        "site_description": "Modular application system for laminas-mvc applications",
+        "composer_description": "Modular application system for laminas-mvc applications",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc",
+        "repo_description": "Laminas's event-driven MVC layer, including MVC Applications, Controllers, and Plugins",
+        "site_description": "Laminas' event-driven MVC layer, including MVC Applications, Controllers, and Plugins.",
+        "composer_description": "Laminas's event-driven MVC layer, including MVC Applications, Controllers, and Plugins",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-console",
+        "repo_description": "Integration between laminas-mvc and laminas-console",
+        "site_description": "Integration between laminas-mvc and laminas-console.",
+        "composer_description": "Integration between laminas-mvc and laminas-console",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-i18n",
+        "repo_description": "Integration between laminas-mvc and laminas-i18n",
+        "site_description": "Integration between laminas-mvc and laminas-i18n",
+        "composer_description": "Integration between laminas-mvc and laminas-i18n",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-middleware",
+        "repo_description": "Dispatch middleware pipelines in place of controllers in laminas-mvc.",
+        "site_description": "Dispatch middleware pipelines in place of controllers in laminas-mvc.",
+        "composer_description": "Dispatch middleware pipelines in place of controllers in laminas-mvc.",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-plugin-fileprg",
+        "repo_description": "Post/Redirect/Get plugin with file upload handling for laminas-mvc controllers",
+        "site_description": "Post/Redirect/Get plugin with file upload handling for laminas-mvc controllers",
+        "composer_description": "Post/Redirect/Get plugin with file upload handling for laminas-mvc controllers",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-plugin-flashmessenger",
+        "repo_description": "Plugin for creating and exposing flash messages via laminas-mvc controllers",
+        "site_description": "Plugin for creating and exposing flash messages via laminas-mvc controllers",
+        "composer_description": "Plugin for creating and exposing flash messages via laminas-mvc controllers",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-plugin-identity",
+        "repo_description": "Plugin for retrieving the current authenticated identity within laminas-mvc controllers",
+        "site_description": "Plugin for retrieving the current authenticated identity within laminas-mvc controllers",
+        "composer_description": "Plugin for retrieving the current authenticated identity within laminas-mvc controllers",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-mvc-plugin-prg",
+        "repo_description": "Post/Redirect/Get plugin for laminas-mvc controllers",
+        "site_description": "Post/Redirect/Get plugin for laminas-mvc controllers",
+        "composer_description": "Post/Redirect/Get plugin for laminas-mvc controllers",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-navigation",
+        "repo_description": "Manage trees of pointers to web pages in order to build navigation systems",
+        "site_description": "Manage trees of pointers to web pages in order to build navigation systems.",
+        "composer_description": "Manage trees of pointers to web pages in order to build navigation systems",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-paginator",
+        "repo_description": "Paginate collections of data from arbitrary sources",
+        "site_description": "Paginate collections of data from arbitrary sources",
+        "composer_description": "Paginate collections of data from arbitrary sources",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-permissions-acl",
+        "repo_description": "Provides a lightweight and flexible access control list (ACL) implementation for privileges management",
+        "site_description": "Create, manage, and query access control lists.",
+        "composer_description": "Provides a lightweight and flexible access control list (ACL) implementation for privileges management",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-permissions-rbac",
+        "repo_description": "Provides a role-based access control management",
+        "site_description": "laminas-permissions-rbac",
+        "composer_description": "Provides a role-based access control management",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-progressbar",
+        "repo_description": "Create and update progress bars in different environments",
+        "site_description": "Create and update progress bars in different environments",
+        "composer_description": "Create and update progress bars in different environments",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-psr7bridge",
+        "repo_description": "PSR-7 <-> laminas-http message conversions",
+        "site_description": "laminas-psr7bridge",
+        "composer_description": "PSR-7 &lt;-&gt; laminas-http message conversions",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-recaptcha",
+        "repo_description": "OOP wrapper for the ReCaptcha web service",
+        "site_description": "OOP wrapper for the ReCaptcha web service",
+        "composer_description": "OOP wrapper for the ReCaptcha web service",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-router",
+        "repo_description": "Flexible routing system for HTTP and console applications",
+        "site_description": "laminas-router: Flexible routing system for HTTP applications",
+        "composer_description": "Flexible routing system for HTTP and console applications",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-serializer",
+        "repo_description": "Serialize and deserialize PHP structures to a variety of representations",
+        "site_description": "Serialize and deserialize PHP structures to a variety of representations",
+        "composer_description": "Serialize and deserialize PHP structures to a variety of representations",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-servicemanager",
+        "repo_description": "Factory-Driven Dependency Injection Container",
+        "site_description": "laminas-servicemanager: factory-driven dependency injection container",
+        "composer_description": "Factory-Driven Dependency Injection Container",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-servicemanager-di",
+        "repo_description": "laminas-di integration for laminas-servicemanager",
+        "site_description": "laminas-di integration for laminas-servicemanager",
+        "composer_description": "laminas-di integration for laminas-servicemanager",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-session",
+        "repo_description": "Object-oriented interface to PHP sessions and storage",
+        "site_description": "Object-oriented interface to PHP sessions and storage.",
+        "composer_description": "Object-oriented interface to PHP sessions and storage",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-skeleton-installer",
+        "repo_description": "Installer plugin for Laminas MVC Skeleton application",
+        "site_description": "Composer plugin for providing and prompting for optional components in skeleton projects.",
+        "composer_description": "Installer plugin for Laminas skeleton application",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-soap",
+        "repo_description": null,
+        "site_description": "laminas-soap",
+        "composer_description": " ",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-stdlib",
+        "repo_description": "SPL extensions, array utilities, error handlers, and more",
+        "site_description": "Laminas\\Stdlib",
+        "composer_description": "SPL extensions, array utilities, error handlers, and more",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-stratigility",
+        "repo_description": "PSR-7 middleware foundation for building and dispatching middleware pipelines",
+        "site_description": "laminas-stratigility",
+        "composer_description": "PSR-7 middleware foundation for building and dispatching middleware pipelines",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-tag",
+        "repo_description": "Manipulate and weight taggable items, and create tag clouds",
+        "site_description": "Laminas\\Tag",
+        "composer_description": "Manipulate and weight taggable items, and create tag clouds",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-test",
+        "repo_description": "Tools to facilitate unit testing of laminas-mvc applications",
+        "site_description": "laminas-test",
+        "composer_description": "Tools to facilitate unit testing of laminas-mvc applications",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-text",
+        "repo_description": "Create FIGlets and text-based tables",
+        "site_description": "Create FIGlets and text-based tables",
+        "composer_description": "Create FIGlets and text-based tables",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-twitter",
+        "repo_description": "OOP wrapper for the Twitter web service",
+        "site_description": "PHP OOP wrapper for the Twitter API",
+        "composer_description": "OOP wrapper for the Twitter web service",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-uri",
+        "repo_description": "A component that aids in manipulating and validating \u00bb Uniform Resource Identifiers (URIs)",
+        "site_description": "Object oriented interface to URIs, with facilities for validation",
+        "composer_description": "A component that aids in manipulating and validating \u00bb Uniform Resource Identifiers (URIs)",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-validator",
+        "repo_description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria",
+        "site_description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria.",
+        "composer_description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-view",
+        "repo_description": "Flexible view layer supporting and providing multiple view layers, helpers, and more",
+        "site_description": "Flexible view layer supporting and providing multiple view layers, helpers, and more.",
+        "composer_description": "Flexible view layer supporting and providing multiple view layers, helpers, and more",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-xml2json",
+        "repo_description": "Provides functionality for converting XML to JSON, optionally including XML attributes",
+        "site_description": "Convert XML documents to JSON",
+        "composer_description": "Provides functionality for converting XML to JSON, optionally including XML attributes",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-xmlrpc",
+        "repo_description": "Fully-featured XML-RPC server and client implementations",
+        "site_description": "Fully-featured XML-RPC server and client implementations",
+        "composer_description": "Fully-featured XML-RPC server and client implementations",
+        "equal": true,
+        "equal_repo_site": true,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "laminas-server",
+        "repo_description": "Create Reflection-based RPC servers",
+        "site_description": "laminas-server",
+        "composer_description": "Create Reflection-based RPC servers",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": true
+    },
+    {
+        "repo": "tutorials",
+        "repo_description": "Learn how to create laminas-mvc applications, get in-depth guides into components, and discover how to migrate your applications to version 3!",
+        "site_description": "Learn how to create laminas-mvc applications, get in-depth guides into components, and discover how to migrate your applications to version 3!",
+        "composer_description": null,
+        "equal": false,
+        "equal_repo_site": true,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-template",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for {adapter}",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cli",
+        "repo_description": "Console command runner, exposing commands written in Laminas MVC and Mezzio components and applications",
+        "site_description": "Command-line interface for Laminas projects",
+        "composer_description": "Command-line interface for Laminas projects",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-test",
+        "repo_description": "Testing utilities for laminas-cache adapters",
+        "site_description": "",
+        "composer_description": "Laminas cache storage adapter shared test dependency",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-apc",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-apcu",
+        "repo_description": "Laminas cache adapter for APCu",
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for apcu",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-blackhole",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for blackhole",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-dba",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for dba",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-ext-mongodb",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for ext-mongodb",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-filesystem",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for filesystem",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memcache",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for memcache",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memcached",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for memcached",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-memory",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for memory",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-mongodb",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for mongodb",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-redis",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for redis",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-session",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for session",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-wincache",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for wincache",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-xcache",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for xcache",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    },
+    {
+        "repo": "laminas-cache-storage-adapter-zend-server",
+        "repo_description": null,
+        "site_description": "",
+        "composer_description": "Laminas cache adapter for zend-server",
+        "equal": false,
+        "equal_repo_site": false,
+        "equal_repo_composer": false
+    }
+]

@@ -2,17 +2,34 @@
     {{.Content}}
 
     <table>
-    {{ range $.Site.Data.documentation_listed }}
-        <tr{{ if eq .listed false}} class="text-danger"{{end}}>
-            <td>
-                {{ if .listed }}
-                    <a href="https://docs.laminas.dev/{{ .repo }}">{{ .repo }}</a>
-                {{ else }}
-                    {{ .repo }}
-                {{ end }}
-            </td>
-            <td>{{ if .listed }}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
-        </tr>
-    {{ end }}
+        {{ if eq .Params.subproject "components" }}
+            {{ range sort $.Site.Data.laminas.documentation_listed "repo" }}
+                <tr{{ if eq .listed false}} class="text-danger"{{end}}>
+                    <td>
+                        {{ if .listed }}
+                            <a href="https://docs.laminas.dev/{{ .repo }}">{{ .repo }}</a>
+                        {{ else }}
+                            {{ .repo }}
+                        {{ end }}
+                    </td>
+                    <td>{{ if .listed }}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
+
+        {{ if eq .Params.subproject "mezzio" }}
+            {{ range sort $.Site.Data.mezzio.documentation_listed "repo" }}
+                <tr{{ if eq .listed false}} class="text-danger"{{end}}>
+                    <td>
+                        {{ if .listed }}
+                            <a href="https://docs.mezzio.dev/{{ .repo }}">{{ .repo }}</a>
+                        {{ else }}
+                            {{ .repo }}
+                        {{ end }}
+                    </td>
+                    <td>{{ if .listed }}<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ else }}<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+            {{ end }}
+        {{ end }}
     </table>
 {{ end }}
