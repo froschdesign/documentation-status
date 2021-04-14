@@ -3,9 +3,9 @@
         "repo": "laminas-cache",
         "config_provider_class": true,
         "module_class": true,
-        "config_provider_class_in_config": false,
-        "module_class_in_config": false,
-        "page": false
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
     },
     {
         "repo": "laminas-db",
@@ -19,9 +19,9 @@
         "repo": "laminas-di",
         "config_provider_class": true,
         "module_class": true,
-        "config_provider_class_in_config": false,
-        "module_class_in_config": false,
-        "page": false
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
     },
     {
         "repo": "laminas-diactoros",
@@ -43,9 +43,9 @@
         "repo": "laminas-form",
         "config_provider_class": true,
         "module_class": true,
-        "config_provider_class_in_config": false,
-        "module_class_in_config": false,
-        "page": false
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
     },
     {
         "repo": "laminas-httphandlerrunner",
@@ -75,9 +75,9 @@
         "repo": "laminas-inputfilter",
         "config_provider_class": true,
         "module_class": true,
-        "config_provider_class_in_config": false,
-        "module_class_in_config": false,
-        "page": false
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
     },
     {
         "repo": "laminas-log",
@@ -116,7 +116,7 @@
         "config_provider_class": false,
         "module_class": true,
         "config_provider_class_in_config": false,
-        "module_class_in_config": false,
+        "module_class_in_config": true,
         "page": false
     },
     {
@@ -155,9 +155,9 @@
         "repo": "laminas-navigation",
         "config_provider_class": true,
         "module_class": true,
-        "config_provider_class_in_config": false,
-        "module_class_in_config": false,
-        "page": false
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
+        "page": true
     },
     {
         "repo": "laminas-paginator",
@@ -205,6 +205,22 @@
         "module_class": true,
         "config_provider_class_in_config": false,
         "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-servicemanager-inspector",
+        "config_provider_class": true,
+        "module_class": false,
+        "config_provider_class_in_config": false,
+        "module_class_in_config": false,
+        "page": false
+    },
+    {
+        "repo": "laminas-paginator-adapter-laminasdb",
+        "config_provider_class": true,
+        "module_class": true,
+        "config_provider_class_in_config": true,
+        "module_class_in_config": true,
         "page": false
     }
 ]

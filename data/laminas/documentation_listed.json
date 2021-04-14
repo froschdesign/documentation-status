@@ -106,7 +106,7 @@
     },
     {
         "repo": "laminas-feed",
-        "repo_description": "Provides functionality for consuming RSS and Atom feeds",
+        "repo_description": "Consume and generate Atom and RSS feeds, and interact with Pubsubhubbub.",
         "listed": true
     },
     {
@@ -468,5 +468,20 @@
         "repo": "laminas-cache-storage-adapter-zend-server",
         "repo_description": null,
         "listed": false
+    },
+    {
+        "repo": "laminas-servicemanager-inspector",
+        "repo_description": null,
+        "listed": false
+    },
+    {
+        "repo": "laminas-servicemanager-migration",
+        "repo_description": "Migrate your code to laminas-servicemanager 4.x compatibility utilizing Rector rules.",
+        "listed": false
+    },
+    {
+        "repo": "laminas-paginator-adapter-laminasdb",
+        "repo_description": "laminas-db adapters for laminas-paginator.",
+        "listed": true
     }
 ]
